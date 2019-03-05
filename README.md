@@ -1,8 +1,9 @@
 # Node-RED SmithTek Node
 
-This is a [Node-RED](http://nodered.org) node used to interact with the SmithTek service. It publishes and suscribes to one or multiple variables.
+This is a [Node-RED](http://nodered.org) node used to interact with the SmithTek service.
 
-## Installation -- TODO UPDATE THIS WHEN PUBLISHING TO NPM
+## Installation -- 
+npm install smithtek-nodered-duty-standby or install using pallete manager
 
 The `smithtek-nodered` node for Node-RED is available as an [npm package](https://www.npmjs.com/package/smithtek-nodered). We recommend
 you to read [Node-RED documentation](https://nodered.org/docs/getting-started/adding-nodes.html#installing-npm-packaged-nodes) if you
@@ -10,7 +11,8 @@ have any doubts installing nodes in the platform.
 
 ## Usage
 
-There are four different nodes: One for controlling the pumps, and 3 for formatting input `msg.payload` into the command format for that controller.
+There are 4 different nodes: One for controlling the pumps, and 3 for formatting input `msg.payload` into the command format for that controller.
+There is also an dadditional GPS node that will parse GPS coordinates in floating point over modbus. Only works with smithtek GPS module, future development 
 
 ### Smithtek Duty/Standby Controller
 
